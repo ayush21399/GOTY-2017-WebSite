@@ -1,0 +1,186 @@
+
+		
+		
+	
+	h1{
+color: white;
+text-align: center;
+text-transform: uppercase;
+}
+
+		
+
+body{
+	background-color: #000B29;
+	color: blue;
+	font-family: arial,verdana;
+	
+	p, blockquote, pre {
+						}
+	}
+div{
+	background-color: #99ff99;
+	width: 1000px;
+	border: 25px;
+	
+	}
+	
+	/*start navigation*/
+	
+	nav ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #D70026;
+		
+		}
+		nav ul li a{
+			background-color: #D70026;
+			float: left;
+			overflow: hidden;
+		     border: 0px solid #555;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			}
+		
+		li a:hover{
+		background-color: #000B29;
+		}
+		
+	nav ul li a:hover:not(.active) {
+background-color: #000B29;
+}
+	
+	nav ul li a.active {
+background-color: #000B29;
+color: white;
+}
+		
+		
+		
+		nav ul li.right {
+		float: right;
+		
+		}
+			@media screen and (max-width: 600px){
+		nav ul li.right, 
+		nav ul li {float: none;}
+		}	 
+		 
+	/*end navigation*/
+	
+	p#about {
+		margin-left: 30em;
+	}
+		h3{margin-left: 25em;}
+	ul{
+		margin-left: 27em;
+		list-style-type: none;
+		}
+		
+		th,td {
+			border: 1em dashed #000000;
+		}
+		
+		table{
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+	img {
+	height: 300px;
+    width: 30%;	
+    float: left;
+    } 
+	
+	/* FORMS FORMS FORMS FORMS FORMS FORMS FORMS*/
+
+input[type=text], select{
+	 width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	}
+	
+	input[type=tel], select{
+	 width: 30%;
+    padding: 7px 7px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	}
+	
+	input[type=password], select{
+	 width: 50%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	}
+	
+	/* single input*/
+	
+	input[name=city], select{
+	 width: 20%;
+	
+	}
+	input[name=firstName], select{
+	 width: 50%;
+	
+	}
+	input[name=lastName], select{
+	 width: 50%;
+	
+	}
+	
+	
+	/* single input over*/
+	
+	input[type=date], select{
+	 width: 18%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	}
+	
+	input[type=select], select{
+		width: 20%;
+   background-color:  #ccff66;
+    color:  black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	}
+	
+	input[type=button], input[type=submit], input[type=reset] {
+    background-color: #1aa3ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* FORMS FORMS FORMS FORMS FORMS FORMS FORMS*/
+	
